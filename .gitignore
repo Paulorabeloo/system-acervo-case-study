@@ -1,0 +1,7 @@
+# Ferramentas de trabalho: geram o conteúdo, não fazem parte dele.
+gerar-*.py
+gerar-*.mjs
+preview-*.html
+COMO-PUBLICAR.md
+linkedin-guardado/
+_*.html
