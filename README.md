@@ -185,9 +185,9 @@ use it.
 
 | | |
 |---|---|
-| SQL migrations | 56 |
+| SQL migrations | 82 |
 | Lines of SQL | ~5,800 |
-| Database objects | 14 views, 17 functions |
+| Database objects | 14 views, 25 functions |
 | React screens | 14 |
 | Lines of JS/JSX | ~7,600 |
 | End-to-end rule script | 23 checks, run inside a rolled-back transaction |
@@ -197,7 +197,7 @@ use it.
 **Frontend** React 19 · Vite · Tailwind CSS v4 · TanStack Query · react-hook-form · Zod
 **Database** PostgreSQL (Supabase) with RLS, triggers, generated columns and views
 **Integrations** Melhor Envio shipping quotes through a Deno Edge Function
-**Infra** Vercel (push to deploy) · weekly automated backups via GitHub Actions
+**Infra** Vercel (push to deploy) · daily automated backups via GitHub Actions
 
 ## What I took away from it
 
@@ -388,9 +388,9 @@ número da empresa em lugar nenhum.
 
 | | |
 |---|---|
-| Migrações SQL | 56 |
+| Migrações SQL | 82 |
 | Linhas de SQL | ~5.800 |
-| Objetos no banco | 14 views, 17 funções |
+| Objetos no banco | 14 views, 25 funções |
 | Telas React | 14 |
 | Linhas de JS/JSX | ~7.600 |
 | Script de regras ponta a ponta | 23 verificações, em transação com rollback |
@@ -400,7 +400,7 @@ número da empresa em lugar nenhum.
 **Frontend** React 19 · Vite · Tailwind CSS v4 · TanStack Query · react-hook-form · Zod
 **Banco** PostgreSQL (Supabase) com RLS, triggers, colunas geradas e views
 **Integrações** Cotação de frete do Melhor Envio via Edge Function em Deno
-**Infra** Vercel (deploy por push) · backup semanal automatizado em GitHub Actions
+**Infra** Vercel (deploy por push) · backup diário automatizado em GitHub Actions
 
 ## O que eu tirei disso
 
