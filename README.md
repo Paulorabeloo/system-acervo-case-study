@@ -54,6 +54,11 @@ arrive at the same figures. Infrastructure costs $0 a month, and the main rules
 are covered by an end-to-end script of 23 checks that runs against the live
 database inside a transaction and rolls everything back at the end.
 
+**Cost.** The system runs on the free tiers of Supabase, Vercel and GitHub. A
+custom system of this size, commissioned from a small software house in Brazil,
+would fall in the range of R$ 70k to 110k to build plus a monthly maintenance
+fee (a market estimate, not a quote).
+
 ### Before and after
 
 | Before | After |
@@ -278,6 +283,11 @@ mensal, o relatório por frasco e o painel financeiro. Os quatro chegam aos mesm
 valores. A infraestrutura custa R$ 0 por mês, e as regras principais têm um
 script de 23 verificações que roda contra o banco real dentro de uma transação e
 desfaz tudo no fim.
+
+**Custo.** O sistema roda nos planos gratuitos de Supabase, Vercel e GitHub. Um
+sistema sob medida deste porte, contratado de uma software house pequena no
+Brasil, ficaria na faixa de R$ 70 a 110 mil de construção mais manutenção mensal
+(estimativa de mercado, não orçamento).
 
 ### Antes e depois
 
